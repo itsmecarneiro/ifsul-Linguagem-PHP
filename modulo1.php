@@ -1,23 +1,23 @@
 <?php
 echo "<h3>Exercício 1</h3>";
 
-$valor1 = 10;
-$valor2 = -15;
+$valor1Exercicio1 = 10;
+$valor2Exercicio1 = -15;
 
-echo "<p>O oposto de valor1 é " . -$valor1 . "</p>";
-echo "<p>O oposto de valor2 é " . -$valor2 . "</p>";
+echo "<p>O oposto de valor1 é " . -$valor1Exercicio1 . "</p>";
+echo "<p>O oposto de valor2 é " . -$valor2Exercicio1 . "</p>";
 
 
 echo "<h3>Exercício 2</h3>";
 
-$valor3 = 25;
-$valor4 = 10;
+$valor1Exercicio2 = 25;
+$valor2Exercicio2 = 10;
 
-$soma = $valor3 + $valor4;
-$dif = $valor3 - $valor4;
-$mult = $valor3 * $valor4;
-$div = $valor3 / $valor4;
-$rst = $valor3 % $valor4;
+$soma = $valor1Exercicio2 + $valor2Exercicio2;
+$dif = $valor1Exercicio2 - $valor2Exercicio2;
+$mult = $valor1Exercicio2 * $valor2Exercicio2;
+$div = $valor1Exercicio2 / $valor2Exercicio2;
+$rst = $valor1Exercicio2 % $valor2Exercicio2;
 
 echo "<p>A soma dos valores é igual a " . $soma . "</p>";
 echo "<p>A diferença dos valores é igual a " . $dif . "</p>";
@@ -28,18 +28,18 @@ echo "<p>O resto dos valores é igual a " . $rst . "</p>";
 
 echo "<h3>Exercício 3</h3>";
 
-$valor5 = 8;
+$valor1Exercicio3 = 8;
 
-if ($valor5 == 8) {
+if ($valor1Exercicio3 == 8) {
     echo "<p>Valor é 8</p>";
 }
 
 
 echo "<h3>Exercício 4</h3>";
 
-$nota6 = 7;
+$notaProva = 7;
 
-if ($nota6 >= 6){
+if ($notaProva >= 6){
     echo "<p>Você passou e é fera!</p>";
 }
 else{
@@ -49,22 +49,23 @@ else{
 
 echo "<h3>Exercício 5</h3>";
 
-$a = 12;
-$b = 6;
+$valor1Exercicio5 = 60;
+$valor2Exercicio5 = 6;
+$resultadoExercicio5 = $valor1Exercicio5/$valor2Exercicio5;
 
-if ($a/$b == 2){
+if ($resultadoExercicio5 == 2){
     echo "<p>O resultado da divisão é 2!</p>";
 }
 else {
-    echo "<p>O resultado da divisão não é 2, é " . $a/$b . "</p>";
+    echo "<p>O resultado da divisão não é 2, é " . $valor1Exercicio5/$valor2Exercicio5 . "</p>";
 }
 
 
 echo "<h3>Exercício 6</h3>";
 
-$disposicao = 10;
+$disposicaoExercicio6 = 10;
 
-if ($disposicao == 10){
+if ($disposicaoExercicio6 == 10){
     echo "<p>Vamos praticar!</p>";
 }
 else {
@@ -74,17 +75,17 @@ else {
 
 echo "<h3>Exercício 7</h3>";
 
-$prova1 = 10;
-$prova2 = 10;
-$media = ($prova1 + $prova2) / 2;
+$prova1Exercicio7 = 10;
+$prova2Exercicio7 = 10;
+$mediaExercicio7 = ($prova1Exercicio7 + $prova2Exercicio7) / 2;
 
-if ($media <3){
+if ($mediaExercicio7 <3){
     echo "<p>Precisa dar mais gás!</p>";
 }
-elseif ($media <6){
+elseif ($mediaExercicio7 <6){
     echo "<p>Só mais um pouco!</p>";
 }
-elseif ($media <9){
+elseif ($mediaExercicio7 <9){
     echo "<p>Mais atenção e seria 10!</p>";
 }
 else {
@@ -94,9 +95,9 @@ else {
 
 echo "<h3>Exercício 8</h3>";
 
-$idade = 17;
+$idadeExercicio8 = 17;
 
-if ($idade >= 18){
+if ($idadeExercicio8 >= 18){
     echo "<p>É maior de idade!</p>";
 }
 else {
@@ -106,9 +107,9 @@ else {
 
 echo "<h3>Exercício 9</h3>";
 
-$opcao = 'n';
+$opcaoExercicio9 = 'n';
 
-switch ($opcao){
+switch ($opcaoExercicio9){
     case 's':
         echo "<p>Você escolheu SIM!</p>";
         break;
