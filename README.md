@@ -1,16 +1,20 @@
-# 🧠 Exercícios de PHP - Fundamentos
+# 💻 Estudos em PHP - IFSul
 
-Este repositório contém exercícios práticos desenvolvidos durante meus estudos iniciais em PHP.
+Este repositório contém exercícios práticos desenvolvidos durante meu aprendizado em PHP.
 
-## 💻 Conteúdos abordados:
+## 🧠 Conteúdos:
 - Variáveis
-- Operadores matemáticos
-- Estruturas condicionais (if/else)
+- Operadores
+- Estruturas condicionais
 - Switch case
 
 ## 🎯 Objetivo:
-Praticar lógica de programação e fundamentos de PHP com foco em desenvolvimento back-end.
+Desenvolver base sólida em lógica de programação e back-end com PHP.
+
+## 🚀 Próximos passos:
+- Trabalhar com formulários
+- Criar sistemas interativos
+- Desenvolver projetos completos
 
 ---
-
-📌 Em breve: projetos com interação com usuário (formulários)
+Feito por Jessica 🚀
