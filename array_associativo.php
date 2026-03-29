@@ -1,11 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salão de Beleza da Jess</title>
+</head>
+<body>
 <?php
-echo "<h3>Exercício 1<h3>";
+    $corteCabelo = [
+        "sexo" => "Feminino",
+        "corte" => "Estilo V",
+        "comprimento" => "Longo"
+    ];
 
-$produtoExercicio1 = [
-    "nome" => "Notebook",
-    "preco" => 3500,
-    "marca" => "Dell"
-];
-
-echo "Produto: " . $produto["preco"];
+    echo $corteCabelo["corte"];
 ?>
+</body>
+</html>
