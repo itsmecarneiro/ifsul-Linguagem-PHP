@@ -20,8 +20,6 @@ foreach($alunos as $aluno){
     }
 }
 
-echo "<h3>Melhor Aluno:</h3>";
-
 $maiorMedia = 0;
 $melhorAluno = "";
 
@@ -34,6 +32,6 @@ foreach($alunos as $aluno){
     }
 }
 
-echo "<h3> É o ".$melhorAluno.", com a media de ".$maiorMedia;
+echo "<h3> Melhor aluno: $melhorAluno com média $maiorMedia</h3>";
 
 ?>
