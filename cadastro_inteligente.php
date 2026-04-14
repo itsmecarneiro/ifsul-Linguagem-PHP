@@ -20,6 +20,7 @@
         <input type="reset" name="botao" value="Limpar" />
     </form>
     <?php
+    echo "TESTE";
     function validarDados($dados)
     {
         foreach ($dados as $key => $value) {
